@@ -13,10 +13,10 @@ This project demonstrates advanced async/await patterns using native JavaScript 
 
 | File | Description |
 |------|-------------|
-| `asyncSequential.js` | Runs async tasks one after another (awaits each before proceeding) |
-| `asyncParallel.js` | Executes async tasks in parallel using `Promise.all` |
-| `errorHandling.js` | Demonstrates error handling in async functions |
-| `promiseAllSettled.js` | Runs tasks and handles both resolved and rejected cases without breaking |
+| `runTasksSequentially.js` | Runs async tasks one after another (awaits each before proceeding) |
+| `runTasksInParallel.js` | Executes async tasks in parallel using `Promise.all` |
+| `handleAsynErrors.js` | Demonstrates error handling in async functions |
+| `usePromiseAllSettled.js` | Runs tasks and handles both resolved and rejected cases without breaking |
 
 ## 🚀 Run Instructions
 
@@ -26,7 +26,7 @@ git clone https://github.com/yourusername/advanced-async-js.git
 cd advanced-async-js
 
 # Run any file using Node.js
-node src/asyncSequential.js
-node src/asyncParallel.js
-node src/errorHandling.js
-node src/promiseAllSettled.js
+node src/runTasksSequentially.js
+node src/runTasksInParallel.js
+node src/handleAsyncErrors.js
+node src/usePromiseAllSettled.js
