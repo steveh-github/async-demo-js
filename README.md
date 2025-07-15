@@ -1,6 +1,6 @@
 # Advanced Async Patterns in JavaScript
 
-This project demonstrates advanced async/await patterns using native JavaScript Promises. Ideal for showcasing modern JavaScript concurrency on GitHub.
+This project demonstrates async/await patterns using JavaScript Promises.
 
 ## 🧩 Features
 
