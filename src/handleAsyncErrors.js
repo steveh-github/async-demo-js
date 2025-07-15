@@ -2,7 +2,7 @@ const TASK_DELAY_MS = 1000;
 const SUCCESS_MESSAGE = "✅ Task succeeded.";
 const FAILURE_MESSAGE = "❌ Task failed!";
 
-const unstableTask = (shouldFail) =>
+const task = (shouldFail) =>
   new Promise((resolve, reject) =>
     setTimeout(() => {
       if (shouldFail) reject(new Error(FAILURE_MESSAGE));
@@ -14,7 +14,7 @@ async function runWithErrorHandling(shouldFail = false) {
   console.log("Running task with potential failure...");
 
   try {
-    const result = await unstableTask(shouldFail);
+    const result = await task(shouldFail);
     console.log(result);
   } catch (error) {
     console.error("Caught error:", error.message || error);
