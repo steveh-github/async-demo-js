@@ -4,10 +4,10 @@ This project demonstrates async/await patterns using JavaScript Promises.
 
 ## 🧩 Features
 
-- ✅ Sequential async logic
-- ⚡ Parallel execution with `Promise.all`
-- 🛑 Error handling with `try/catch`
-- 💪 Resilient multi-promise handling with `Promise.allSettled`
+- Sequential async logic
+- Parallel execution with `Promise.all`
+- Error handling with `try/catch`
+-  multi-promise handling with `Promise.allSettled`
 
 ## 🗂 File Overview
 
